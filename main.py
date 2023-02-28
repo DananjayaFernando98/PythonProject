@@ -63,16 +63,20 @@ time.sleep(5)
 # time.sleep(2)
 
 # TikTok Liker Example
-time.sleep(3)
+# time.sleep(3)
 # range will be the you want like
-for i in range(10):
-    pyautogui.moveTo(450, 500)
-    time.sleep(1)
-    pyautogui.doubleClick()
-    time.sleep(1)
-    pyautogui.moveTo(840, 500)
-    time.sleep(1)
-    pyautogui.leftClick()
+# for i in range(10):
+#     pyautogui.moveTo(450, 500)
+#     time.sleep(1)
+#     pyautogui.doubleClick()
+#     time.sleep(1)
+#     pyautogui.moveTo(840, 500)
+#     time.sleep(1)
+#     pyautogui.leftClick()
+
+# Keyboard Function
+
+
 
 
 
