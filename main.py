@@ -81,6 +81,13 @@ time.sleep(3)
 
 
 # Dino Game - Chrome
+# time.sleep(3)
+# for i in range(20):
+#     pyautogui.press("space")
+#     time.sleep(0.5)
+
+# Screenshot in pyautogui
+pyautogui.screenshot("Screenshot.png")
 
 
 
