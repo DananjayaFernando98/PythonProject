@@ -50,17 +50,29 @@ time.sleep(5)
 
 
 # Spiral
-time.sleep(1)
+# time.sleep(1)
+#
+# distance = 300
+# while distance > 0:
+#     pyautogui.dragRel(distance, 0, 1, button="left")
+#     distance = distance - 20
+#     pyautogui.dragRel(0, distance, 1, button="left")
+#     pyautogui.dragRel(-distance, 0, 1, button="left")
+#     distance = distance - 20
+#     pyautogui.dragRel(0, -distance, 1, button="left")
+# time.sleep(2)
 
-distance = 300
-while distance > 0:
-    pyautogui.dragRel(distance, 0, 1, button="left")
-    distance = distance - 20
-    pyautogui.dragRel(0, distance, 1, button="left")
-    pyautogui.dragRel(-distance, 0, 1, button="left")
-    distance = distance - 20
-    pyautogui.dragRel(0, -distance, 1, button="left")
-time.sleep(2)
+# TikTok Liker Example
+time.sleep(3)
+# range will be the you want like
+for i in range(10):
+    pyautogui.moveTo(450, 500)
+    time.sleep(1)
+    pyautogui.doubleClick()
+    time.sleep(1)
+    pyautogui.moveTo(840, 500)
+    time.sleep(1)
+    pyautogui.leftClick()
 
 
 
