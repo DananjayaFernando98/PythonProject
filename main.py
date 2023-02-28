@@ -2,7 +2,7 @@ import pyautogui
 import time
 
 # Give the python file some time before connecting
-time.sleep(5)
+time.sleep(3)
 
 #Mouse Function
 
@@ -75,6 +75,16 @@ time.sleep(5)
 #     pyautogui.leftClick()
 
 # Keyboard Function
+# pyautogui.write("Hello Github")
+# pyautogui.press("enter")
+# pyautogui.press("space")
+
+
+# Dino Game - Chrome
+
+
+
+
 
 
 
